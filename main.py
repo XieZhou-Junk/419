@@ -53,10 +53,6 @@ def single_process(img, l, k):
     print('process id =', os.getpid(), 'is done')
     return img_process
 
-    # time_start = time.time()  # 计时开始
-    # time_end = time.time()  # 计时结束
-    # print('cost:', time_end - time_start)
-
 
 def func(img, l):
     m, n, c = img.shape
